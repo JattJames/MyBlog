@@ -1,0 +1,579 @@
+* {
+	margin:0;
+	padding:0;
+}
+hr {
+	color: #666;
+	border: solid;
+	height: 1px;
+	width: 100%;
+	text-align:center
+}
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #A1A1A1;
+}
+table {
+	font-family: Verdena, Arial, Helvetica;
+	font-size: 12px;
+}
+/* -----------------------------------*/
+/* ---- PAGE CONTAINER <<<-----------*/
+/* -----------------------------------*/
+
+
+#page_container {
+	width:928px;
+	text-align:left;
+	background:#ffffff;
+	color:#303030;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-bottom: 1px;
+	padding-left: 0;
+}
+/* -----------------------------------*/
+/* ---- HEADER <<<-----------*/
+/* -----------------------------------*/
+#header {
+	height:80px;
+	width:928px;
+	margin:0 1px 1px 1px;
+	background-color:#BECF74;
+}
+#header h1 {
+	padding:30px 20px 10px 10px;
+	font-size:2.4em;
+	color:#ffffff;
+	letter-spacing:-2px;
+	font-weight:normal;
+}
+#header h2 {
+	margin:10px 0 0 40px;
+	font-size:1.4em;
+	background-color:inherit;
+	color:#f0f2f4;
+	letter-spacing:-1px;
+	font-weight:normal;
+}
+#searchNode {
+	float: right;
+	height: 28px;
+	margin: 0;
+	padding: 6px 25px 0 0;
+	background: url(images/img03.gif) no-repeat right top;
+}
+#searchNode fieldset {
+	display: inline;
+	line-height:10px;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+/* -----------------------------------*/
+/* ---- GLOBAL NAVIGATION <<<-----------*/
+/* -----------------------------------*/
+#headers {
+	width: 928px;
+	height: 37px;
+	margin: 0 auto;
+	background: #BECF74 url(images/img01.gif) repeat-x;
+	border-bottom: 3px solid #FFFFFF;
+}
+#menu {
+	float: left;
+	width: 750px;
+	height: 37px;
+	margin: 0;
+	padding: 0 0 0 10px;
+	list-style: none;
+	background: url(images/img02.gif) no-repeat;
+}
+#menu li {
+	display: inline;
+}
+#menu a {
+	display: block;
+	float: left;
+	height: 27px;
+	padding: 10px 15px 0px 15px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#menu a:hover {
+	background: #A4B74C url(images/img04.gif) repeat-x;
+}
+.navigation_global {
+	margin-left:1px;
+	vertical-align:middle;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#CCC;
+	text-transform:uppercase;
+	text-decoration:none;
+	color: #ffffff;
+}
+/* -----------------------------------*/
+/* ---- BODY CONTAINER <<<-----------*/
+/* -----------------------------------*/
+#content_container {
+	width:928px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/* -----------------------------------*/
+/* ---- MAIN COLUMN CONTENT <<<-----------*/
+/* -----------------------------------*/
+
+#content {
+	float:left;
+	width:700px;
+	font-size:0.9em;
+	margin:0px 5px 10px 10px;
+}
+#content h1 {
+	margin:0 0 16px 0;
+	font-size:1.6em;
+	font-weight:normal;
+	letter-spacing:-1px;
+	color:#505050;
+	background-color:inherit;
+}
+.textfield_effect {
+	/*we will first set the border styles.*/
+    border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	/*we are now going to add in the shadow image that we created earlier*/
+    background-repeat: repeat-x;
+	background-image:url(images/bgcolor.jpg);
+	/*I am going to add some text formatting of my own*/
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #a6ba53;
+	width: 200px;
+	height: 15px;
+}
+.textfield_area {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	background-repeat: repeat-x;
+	background-image:url(images/bgcolor.jpg);
+	font-family: Verdana;
+	font-size: 12px;
+	color: #a6ba53;
+	width: 300px;
+	height:100px;
+}
+.textfield_area:hover {
+	border-color: #a6ba53;
+	border-width: 1px;
+}
+.textfield_area:focus {
+	border-color: #a6ba53;
+	border-width: 1px;
+}
+/*we are now going to style how the textfield will look when we
+hover over it and when we actually have it selected*/
+ 
+.textfield_effect:hover {
+	border-color: #a6ba53;
+	border-width: 1px;
+}
+.textfield_effect:focus {
+	border-color: #a6ba53;
+	border-width: 1px;
+}
+/*you may also like to add some styles for the rest of the form*/
+ a {
+	color: #87A019;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #2582A4;
+}
+fieldset {
+	width: 90%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #036399;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+}
+fieldset:hover {
+	border-color: #a6ba53;
+}
+legend {
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #097bc3;
+	font-weight: bold;
+}
+.submit {
+	border:1px solid;
+	background: url(images/btnBlue.png) repeat-x top;
+	color:#FFF;
+}
+#content h2 {
+	display:block;
+	margin:0 0 16px 0;
+	font-size:1.0em;
+	font-weight:normal;
+	letter-spacing:-1px;
+	color:#505050;
+	background-color:inherit;
+}
+#content h1 a {
+	font-weight:bold;
+}
+#content h2 a {
+	font-weight:normal;
+}
+#content h3 {
+	margin:0 0 5px 0;
+	font-size:1.1em;
+	letter-spacing:-1px;
+}
+#content a:hover, #subcontent a:hover {
+	text-decoration:underline;
+}
+#content ul, #content ol {
+	margin:0 5px 16px 35px;
+}
+#content dl {
+	margin:0 5px 10px 25px;
+}
+#content dt {
+	font-weight:bold;
+	margin-bottom:5px;
+}
+#content dd {
+	margin:0 0 10px 15px;
+}
+#content .important {
+	color:#f02025;
+	background-color:inherit;
+	font-size:0.8em;
+}
+/* -----------------------------------*/
+/* ---- USER ACTION MENU <<<-----------*/
+/* -----------------------------------*/
+
+#menu_actions_user {
+	margin:0 5px 5px 0;
+	padding:5px;
+	line-height:1.5em;
+	float:left;
+}
+#menu_actions_user a {
+	font-weight:normal;
+	text-decoration:none;
+	background-color:inherit;
+}
+.editmode {
+	color: #FF0000;
+}
+/* -----------------------------------*/
+/* ---- ADMIN ACTION MENU <<<-----------*/
+/* -----------------------------------*/
+
+#menu_actions_admin {
+	margin:0 0 5px 0;
+	padding:5px;
+	line-height:1.5em;
+	float:right;
+}
+#menu_actions_admin li a {
+	font-weight:normal;
+	text-decoration:none;
+	background-color:inherit;
+	color:#ff0000;
+}
+/* -----------------------------------*/
+/* ---- MAIN COLUMN SUB CONTENT <<<-----------*/
+/* -----------------------------------*/
+
+#subcontent {
+	float:left;
+	width:528px;
+	font-size:0.9em;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 10px 10px;
+	border:1px solid #c0c0c0;
+	background-color:#fafbfc;
+}
+#subcontent h1 {
+	margin:0 0 16px 0;
+	font-size:1.6em;
+	font-weight:normal;
+	letter-spacing:-1px;
+	color:#505050;
+	background-color:inherit;
+}
+#subcontent h2 {
+	display:block;
+	margin:0 0 16px 0;
+	font-size:1.0em;
+	font-weight:normal;
+	letter-spacing:-1px;
+	color:#505050;
+	background-color:inherit;
+}
+#subcontent h1 a {
+	font-weight:bold;
+}
+#subcontent h2 a {
+	font-weight:normal;
+}
+#subcontent h3 {
+	margin:0 0 5px 0;
+	font-size:1.1em;
+	letter-spacing:-1px;
+}
+#subcontent a:hover {
+	text-decoration:underline;
+}
+#subcontent ul, #subcontent ol {
+	margin:0 5px 16px 35px;
+}
+#subcontent dl {
+	margin:0 5px 10px 25px;
+}
+#subcontent dt {
+	font-weight:bold;
+	margin-bottom:5px;
+}
+#subcontent dd {
+	margin:0 0 10px 15px;
+}
+#subcontent .important {
+	color:#f02025;
+	background-color:inherit;
+	font-size:0.8em;
+}
+/* -----------------------------------*/
+/* ---- RIGHT COLUMN CONTAINER <<<-----------*/
+/* -----------------------------------*/
+
+#search_container {
+	height: auto;
+	min-height:500px;
+	_height:500px;
+	float:right;
+	width:210px;
+	vertical-align:top;
+}
+/* -----------------------------------*/
+/* ---- SEARCH CONTAINER <<<-----------*/
+/* -----------------------------------*/
+
+#searchbar {
+	margin:0 0 5px 0;
+	padding:5px;
+	border-top:2px solid #666;
+	border-left:1px solid #c0c0c0;
+	border-bottom:1px solid #c0c0c0;
+	background-color:#fafbfc;
+	color:#505050;
+	line-height:1.0em;
+	float:right;
+	width:160px;
+}
+#searchbar h2 {
+	display:block;
+	margin:0 0 15px 0;
+	font-size:1.0em;
+	font-weight:bold;
+	text-align:left;
+	letter-spacing:-1px;
+	color:#ff0000;
+	background-color:inherit;
+}
+#searchbar p {
+	margin:0 0 16px 0;
+	font-size:0.9em;
+}
+#searchbar {
+	margin:0 0 10px 8px;
+	font-size:0.9em;
+}
+#searchbar li {
+	display:block;
+	padding:1px;
+	margin:3px;
+}
+#searchbar ol {
+	list-style-type:decimal;
+	list-style-position: inside;
+	padding:0px;
+	margin-left:0;
+	display:block;
+}
+#searchbar li a {
+	font-weight:bold;
+	text-decoration:underline;
+}
+#searchbar li a:hover {
+	text-decoration:none;
+}
+#searchbar li ul {
+	margin:3px 0 3px 15px;
+	font-size:1em;
+	font-weight:normal;
+}
+#searchbar li ul li {
+	margin-bottom:0;
+}
+#searchbar li ul a {
+	font-weight:normal;
+}
+#searchbar ol li a {
+	font-weight:normal;
+}
+/* -----------------------------------*/
+/* ---- FOOTER <<<-----------*/
+/* -----------------------------------*/
+
+#footer {
+	clear: both;
+	width: 928px;
+	margin: 0 auto;
+	padding-top: 40px;
+	background: url(../images/img11.gif) repeat-x;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+}
+/* -----------------------------------*/
+/* ---- MISC STYLES <<<-----------*/
+/* -----------------------------------*/
+
+.splitcontentleft {
+	float:left;
+	width:48%;
+}
+.splitcontentright {
+	float:right;
+	width:48%;
+}
+.clear {
+	clear:both;
+}
+.small {
+	font-size:0.8em;
+	color:#666;
+}
+.textcenter {
+	text-align:center;
+}
+.textright {
+	text-align:right;
+}
+.important {
+	color:#f02025;
+	background-color:inherit;
+	font-size:0.8em;
+}
+.box {
+	margin:0 0 20px 0;
+	padding:10px;
+	border:1px solid #c0c0c0;
+	background-color:#fafbfc;
+	color:#505050;
+	line-height:1.5em;
+}
+/* -----------------------------------*/
+/* ---- SHOW/HIDE DIVS <<<-----------*/
+/* -----------------------------------*/
+
+
+.hide {
+	display: none;
+}
+.show {
+	display: inline;
+	text-decoration: underline;
+	cursor: hand;
+	font-weight:normal;
+	padding: 5px 3px 5px 3px;
+	margin:5px;
+}
+/* -----------------------------------*/
+/* ---- CATEGORY MANAGER <<<-----------*/
+/* -----------------------------------*/
+
+table.body {
+	padding: 5px;
+	background-color: #FFFFFF;
+	border-left: solid 1px #AFC6EB;
+	border-top: 1px solid #FFFFFF;
+}
+table.body td {
+	border-right: solid 1px #AFC6EB;
+	border-bottom: 1px solid #AFC6EB;
+	padding: 3px;
+}
+table.body th {
+	background-color: #cccccc;
+	padding: 3px;
+	border-right: solid 1px #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: right;
+}
+.header_box {
+	font-size: 12px;
+	background:#467aa7;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-left:  0px solid #FFFFFF;
+	border-right:  0px solid #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+	padding: 10px;
+}
+.header_box a {
+	color: #FFFFFF;
+}
+.header_box a:hover {
+	color: #FFFFFF;
+}
+.subheader_box {
+	font-size: 13px;
+	background:#80b0da;
+	text-align: left;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 20px;
+	padding: 5px;
+}
+.subheader2_box {
+	font-size: 12px;
+	background-color:#cccccc;
+	text-align: left;
+	font-weight: normal;
+	border-top: solid 0px #FFFFFF;
+	border-right: solid 1px #AFC6EB;
+}
